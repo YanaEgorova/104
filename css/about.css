@@ -1,0 +1,28 @@
+.about .img {
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1024px)  {
+    .about {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        padding: 5rem 0;
+    }
+    .about .img {
+        margin-right: 5rem;
+    }
+    .about .text {
+        text-align: right;
+        margin: 0;
+        margin-left: 5rem;
+    }
+    .about .sub-title {
+        text-align: left;
+        background-color: var(--first-brand-color);
+        margin: 0;
+        flex-grow: 1;
+        padding: 4rem;
+        color: var(--sub-text-color);
+    }
+}

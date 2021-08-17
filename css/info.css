@@ -1,0 +1,28 @@
+.info .img {
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1024px)  {
+    .info {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 5rem 0;
+    }
+    .info .img {
+       margin-left: 5rem;
+    }
+    .info .text {
+        text-align: left;
+        margin: 0;
+        margin-right: 5rem;
+    }
+    .info .sub-title {
+        text-align: right;
+        flex-grow: 1;
+        padding: 4rem;
+        color: var(--sub-text-color);
+        background-color: var(--first-brand-color);
+        margin: 0;
+    }
+}
